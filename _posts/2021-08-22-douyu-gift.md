@@ -6,7 +6,7 @@ tags:
   - douyu
   - script
 ---
-斗鱼送礼物脚本
+斗鱼送礼物脚本  
 propId 礼物ID，268 荧光棒  
 YourRoomID 填入想送的房间号
 

@@ -52,7 +52,7 @@ tags:
      = 1000 (decimal 8)
    ```
 
-3. |：
+3. \|:
 
    ```mathematica
    0 | 0 = 0 
@@ -80,7 +80,7 @@ tags:
    ~0 = 1
    ```
 
-6. <<：
+6. \<<：
 
    shifts a bit pattern to the left
 

@@ -1,14 +1,42 @@
 ---
 layout: post
-title: LeetCode Study Plan Algorithm
+title: Douyu send gift javascript code
 tags:
-  - LeetCode
-  - Algorithm
+  - League of Legends
+  - douyu
+  - script
 ---
-1. Binary Search
-2. Two Pointers
-3. Depth-First Search, DFS
-4. Breadth-First Search, BFS
-5. Dynamic Programming, DP
-6. Backtracking
-7. Bit Manipulation
+斗鱼送礼物脚本  
+propId 礼物ID，268 荧光棒  
+YourRoomID 填入想送的房间号
+
+```javascript
+const timer = ms=>new Promise(res=>setTimeout(res, ms))
+async function load() {
+    var i = 0;
+    while (i < 60) {
+        await timer(100);
+        i++;
+        console.log(i);
+        let formData = new FormData();
+        formData.append("propId", "268");
+        formData.append("propCount", 1);
+        formData.append("roomId", YourRoomID);
+        fetch('https://www.douyu.com/japi/prop/donate/mainsite/v1', {
+            method: 'POST',
+            body: formData
+        }).then(res=>res.json()).then(res=>{
+            if (res && 'error'in res && res.error === 0) {
+                console.log('成功赠送主播 : ' + YourRoomID + ' 一个荧光棒');
+            } else {
+                console.log('赠送失败 : ' + res.msg);
+            }
+        }
+        );
+    }
+
+}
+
+load();
+
+```

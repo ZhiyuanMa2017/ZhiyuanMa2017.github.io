@@ -1,6 +1,6 @@
 ---
 layout: post
-title: LeetCode: Study Plan - Algorithm.md
+title: LeetCode Study Plan Algorithm
 tags:
   - LeetCode
   - Algorithm

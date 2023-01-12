@@ -4,10 +4,10 @@
 
 # Name of your site (displayed in the header)
 name: Zhiyuan Ma's Blog
-SEOTitle: Zhiyuan Ma | ZhiyuanMa2017 | ZhiyuanMa
+SEOTitle: Zhiyuan Ma | ZhiyuanMa2017 | ZhiyuanMa | ZhiyuanMa2021
 # Short bio or description (displayed in the header)
 description: notes coming soon
-keyword: "Zhiyuan Ma, ZhiyuanMa, ZhiyuanMa2017"
+keyword: "Zhiyuan Ma, ZhiyuanMa, ZhiyuanMa2017, ZhiyuanMa2021"
 #
 # Flags below are optional
 #
@@ -49,11 +49,11 @@ footer-links:
   rss: # just type anything here for a working RSS icon
   stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
   tumblr: # https://<username>.tumblr.com
-  twitter: sweeeeeeeeeeep
+  twitter:
   youtube: # channel/<your_long_string> or user/<user-name>
 
 # Text under the icons in footer
-footer-text: © 2022
+footer-text: © 2023
 
 # Enter your Disqus shortname (not your username) to enable commenting on posts
 # You can find your shortname on the Settings page of your Disqus account
